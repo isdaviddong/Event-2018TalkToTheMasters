@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testWebSite", "testWebSite\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTFSFeedback", "AddTFSFeedback\AddTFSFeedback.csproj", "{A8B2AE2C-DA94-4F83-9142-DD32C5F3B02A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoAOP", "demoAOP\demoAOP.csproj", "{8FCC56D7-D259-4459-9840-922B86F845F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A8B2AE2C-DA94-4F83-9142-DD32C5F3B02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8B2AE2C-DA94-4F83-9142-DD32C5F3B02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8B2AE2C-DA94-4F83-9142-DD32C5F3B02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCC56D7-D259-4459-9840-922B86F845F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCC56D7-D259-4459-9840-922B86F845F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCC56D7-D259-4459-9840-922B86F845F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCC56D7-D259-4459-9840-922B86F845F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
