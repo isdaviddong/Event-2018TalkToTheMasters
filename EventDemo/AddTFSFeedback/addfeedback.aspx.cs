@@ -17,8 +17,11 @@ namespace AddTFSFeedback
             var pwd = Request.QueryString["pwd"];
             var title = Request.QueryString["t"];
 
-            if (string.IsNullOrEmpty(url)) Response.End();
-
+            if (string.IsNullOrEmpty(url))
+            {
+                Response.Write("I am live~");
+               return;
+            }
             isRock.Toolbox.TFS.VstsClient vc = new isRock.Toolbox.TFS.VstsClient(url, project, user, pwd);
             var ret = vc.AddFeedback(title, "no body");
             Response.Write(ret);
