@@ -17,8 +17,8 @@ namespace testLineBot
         protected void Button1_Click(object sender, EventArgs e)
         {
             isRock.LineBot.Utility.PushMessage("U6ca03b0fc595c152d361896126809a5f", 
-                "test", 
-                "Dau97nyYAzWCz9qbdoj1a+KMo4ka1oe8wp1EsXCvKagpaTpXCrhgYq/Vuq2hAUd0T3Zr+jc/UThviWjhWn5enxJSnqGcmPN2TiLz0jg6Yn0slE0obpVmqq0vi2A9v9dihvOpyV93IzyAoEeEOmwrkAdB04t89/1O/w1cDnyilFU=");
+                "test",
+                "Fn2CdIjmBCz3kFdur9fiJX2pT84q74Uc6Vy3FxvrbnVd5qqc0GGvfquxHpvIdchsT3Zr+jc/UThviWjhWn5enxJSnqGcmPN2TiLz0jg6Yn3RCGwh4xebVTVHa6EpTucnOG5q1AHMEpdfkvfylauswQdB04t89/1O/w1cDnyilFU=");
         }
     }
 }
